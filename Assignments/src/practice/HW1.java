@@ -36,6 +36,9 @@ public class HW1 {
 				System.out.println("Thank you for using Colton's mathematical caluculation method. Please come again!");
 				System.exit(0);
 				break;
+			default:
+				System.out.println("Sorry, incorrect input. Please try again");	
+				break;
 			}
 //		}else {
 //			System.out.println("Sorry, incorrect input. Please try again");	
