@@ -1,0 +1,22 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str;
+		String sentence;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a random couple of words: ");
+		str=scan.nextLine();
+		
+		char ch1 = str.charAt(0);
+				
+		System.out.println();
+		System.out.println(ch1);
+	}
+
+}

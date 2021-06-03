@@ -1,0 +1,34 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str;
+		String str1 = "con";
+		String str2 = "cat";
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a random couple of words: ");
+		str=scan.nextLine();
+		
+		char ch1 = str.charAt(0);
+				
+		System.out.println();
+		//charAt
+		System.out.println(ch1);
+		System.out.println();
+		//concat
+		System.out.println(str1.concat(str2));
+		//replace
+		System.out.println(str.replace(ch1, 'z'));
+		System.out.println(str.toUpperCase());
+		System.out.println(str.replaceAll(str1, "sad"));
+		System.out.println(str1.startsWith("cat"));
+
+	}
+
+}
